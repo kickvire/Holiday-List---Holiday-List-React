@@ -3,17 +3,10 @@ import "../styles/App.css";
 
 class App extends Component {
   render() {
-    let list = [
-      "Goa(India)",
-      "Amsterdam(Netherlands)",
-      "New York(USA)",
-      "Darjeeling(India)",
-      "Tokyo(Japan)",
-      "Lonavala(India)"
-    ];
+    let list = ["Goa", "Darjeeling", "Lonavala(India)"];
     return (
       <>
-        <ol key="listcity">
+        <ol>
           {list.map((city, index) => (
             <li key={`location${index + 1}`}> {city} </li>
           ))}
