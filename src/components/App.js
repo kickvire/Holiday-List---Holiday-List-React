@@ -3,7 +3,7 @@ import "../styles/App.css";
 
 class App extends Component {
   render() {
-    let list = ["Goa", "Darjeeling", "Lonavala(India)"];
+    let list = ["Goa", "Darjeeling", "Lonavala"];
     return (
       <>
         <ol>
